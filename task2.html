@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second task</title>
+</head>
+<body>
+    <script>
+       var car = {
+        color: 'red',
+        brand: 'KIA',
+        isDriving: false,
+        speed: 120,
+        fuelCapacity: 'fuel',
+        drive: function(time){
+            console.log('Поехали');
+            this.isDriving = true;
+            fuelCapacity=time;
+            distance=time*this.speed;
+            console.log('Проехали'+ distance + 'км');
+            this.stop();
+            return distance;
+        },
+        stop: function(){
+            this.isDriving = false;
+            console.log()
+        }
+       }
+                                 
+    </script>
+</body>
+</html>
